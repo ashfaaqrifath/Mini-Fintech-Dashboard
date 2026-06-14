@@ -3,7 +3,7 @@
 A personal finance tracker built with a React frontend, Node.js/Express backend, and a SQLite database.
 
 ## Prerequisites
-Before you begin, ensure you have **Node.js** (v14 or higher) and **npm** installed on your machine.
+**Node.js** (v14 or higher) and **npm**
 
 ## Installation & Setup
 
@@ -39,12 +39,3 @@ npm run dev
 - **Financial Summary**: View real-time totals for income, expenses, net balance, and your top spending category.
 - **Data Visualization**: Interactive charts showing a breakdown of spending by category.
 - **Rule-Based Insights**: Automated financial observations (e.g., savings ratios) derived from your data.
-
-## Deployment (Vercel)
-1. Push your code to a **GitHub** repository.
-2. Log in to [Vercel](https://vercel.com) and click **Add New Project**.
-3. Import your repository.
-4. In the **Environment Variables** section, add:
-   - `REACT_APP_API_URL`: `/api`
-   - `NODE_ENV`: `production`
-5. Click **Deploy**.

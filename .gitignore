@@ -1,0 +1,15 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# Local environment files
+.env
+frontend/.env
+backend/.env
+
+# Database
+backend/fintech.db
+
+# Production builds
+frontend/build/
